@@ -1,4 +1,4 @@
-interface BrawlStarsHeroes {
+interface BrawlStarsHero {
     val name: String
     val rarity: String
 

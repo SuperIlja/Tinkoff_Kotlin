@@ -1,8 +1,8 @@
 interface Hp {
-    fun Damage ()
+    fun damage ()
 
-    fun Regeneration ()
+    fun regeneration ()
 
-    fun HPinfo():Int
+    fun hpInfo():Int
 
 }
