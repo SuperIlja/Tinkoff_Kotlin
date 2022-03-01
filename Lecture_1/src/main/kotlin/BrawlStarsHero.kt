@@ -1,6 +1,8 @@
 interface BrawlStarsHero {
     val name: String
     val rarity: String
+    val damage: Int
+
 
     fun animalInfo() = "Information about hero".prettyPrint()
 
@@ -9,4 +11,5 @@ interface BrawlStarsHero {
         println(this)
         println()
     }
+
 }

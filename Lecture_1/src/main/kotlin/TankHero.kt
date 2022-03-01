@@ -1,4 +1,4 @@
-class TankHero(override val name: String, override val rarity: String): AttackHero(name,rarity), Hp {
+open class TankHero(override val name: String, override val rarity: String, damage: Int): AttackHero(name,rarity, damage), Hp {
     override fun heroInfo () = "This is tank hero".prettyPrint()
 
     private var hp = 100

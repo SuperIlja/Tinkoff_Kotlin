@@ -1,4 +1,4 @@
-class SupportHero(override val name: String, override val rarity: String) :BrawlStarsHero, Hp {
+class SupportHero(override val name: String, override val rarity: String, override val damage: Int) :BrawlStarsHero, Hp {
     private var hp = 100
 
     override fun damage() {
