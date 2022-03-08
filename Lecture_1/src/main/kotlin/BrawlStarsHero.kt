@@ -4,12 +4,13 @@ interface BrawlStarsHero {
     val damage: Int
 
 
-    fun animalInfo() = "Information about hero".prettyPrint()
+    fun info() = "Information about hero".prettyPrint()
 
-    fun String.prettyPrint () {
+    fun String.prettyPrint ():String {
         println("Name: $name Rarity: $rarity")
         println(this)
         println()
+        return this
     }
 
 }
